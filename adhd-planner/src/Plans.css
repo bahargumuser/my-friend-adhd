@@ -1,0 +1,28 @@
+.Plans {
+display: flex;
+justify-content: center;
+gap: 35vh;
+ width: 217.5vh;
+ height: 100vh; /* pembe renkli alanın yüksekliği */
+background-color: pink;
+}
+.daily {
+width: 25vh;
+height: 5vh;
+background-color: white;
+}
+.weekly {
+    width: 25vh;
+    height: 5vh;
+    background-color: white;
+}
+.monthly {
+    width: 25vh;
+    height: 5vh;
+    background-color: white;
+}
+.yearly {
+    width: 25vh;
+    height: 5vh;
+    background-color: white;
+}
