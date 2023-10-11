@@ -1,28 +1,52 @@
 .Plans {
-display: flex;
-justify-content: center;
-gap: 35vh;
- width: 217.5vh;
- height: 100vh; /* pembe renkli alanın yüksekliği */
-background-color: pink;
-}
-.daily {
-width: 25vh;
-height: 5vh;
-background-color: white;
-}
-.weekly {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .daily,
+  .weekly,
+  .monthly,
+  .yearly {
     width: 25vh;
     height: 5vh;
-    background-color: white;
-}
-.monthly {
+    background-color: palevioletred;
+    margin: 15px;
+    text-align: center;
+    line-height: 5vh;
+    cursor: pointer;
+  }
+  
+  .daily:not(:first-child),
+  .weekly:not(:first-child),
+  .monthly:not(:first-child),
+  .yearly:not(:first-child) {
+    margin-left: 0;
+  }
+  
+  .daily:hover,
+  .weekly:hover,
+  .monthly:hover,
+  .yearly:hover {
+    background-color: #dcdcdc;
+  }
+  
+  .button {
+    background-color: black;
+    color: #dcdcdc;
     width: 25vh;
     height: 5vh;
-    background-color: white;
-}
-.yearly {
-    width: 25vh;
-    height: 5vh;
-    background-color: white;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 0.2vh;
+ margin-top: 1vh;
+  }
+  
